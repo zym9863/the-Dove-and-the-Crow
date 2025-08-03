@@ -1,38 +1,75 @@
-# sv
+# 白鸽与乌鸦 - 无声信笺
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+一个私密的个人写作空间，用于记录那些无法寄出、无法言说的话语和情感。
 
-## Creating a project
+## 项目简介
 
-If you're seeing this, you've probably already done this step. Congrats!
+"白鸽与乌鸦"是一个基于 SvelteKit 构建的私密写作应用，灵感来源于歌词中的情感表达。它为用户提供了一个安全的、不被评判的情绪出口，让那些无法言说的话语找到归宿。
 
-```sh
-# create a new project in the current directory
-npx sv create
+## 核心功能
 
-# create a new project in my-app
-npx sv create my-app
+### 1. 无声信笺 (Voiceless Letters)
+- 私密的个人写作空间
+- 支持富文本编辑
+- 自动保存草稿功能
+- 本地存储，绝对私密
+
+### 2. 告别仪式 (The Farewell Ceremony)
+当你准备好放下某段感情或某个心结时，可以选择：
+
+- **放飞白鸽**: 信笺将被永久封存，伴随白鸽飞走的动画，象征着和平地放手
+- **沉入深海**: 信笺将被彻底删除，伴随信纸沉入大海的动画，象征着彻底的告别与遗忘
+
+## 技术栈
+
+- **前端框架**: SvelteKit
+- **样式**: TailwindCSS
+- **图标**: Lucide Svelte
+- **存储**: LocalForage (本地存储)
+- **包管理**: pnpm
+
+## 开发环境设置
+
+### 安装依赖
+```bash
+pnpm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+### 启动开发服务器
+```bash
+pnpm dev
 ```
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
+### 构建生产版本
+```bash
+pnpm build
 ```
 
-You can preview the production build with `npm run preview`.
+### 预览生产版本
+```bash
+pnpm preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 项目特色
+
+- 🔒 **绝对私密**: 所有数据仅存储在用户设备本地
+- 🎨 **诗意界面**: 符合主题的优雅设计
+- ✨ **流畅动画**: 精心设计的告别仪式动画
+- 📱 **响应式设计**: 支持各种设备尺寸
+- 🌙 **情感化体验**: 专为情感表达而设计
+
+## 使用说明
+
+1. **写信**: 在"无声信笺"中记录你的想法和情感
+2. **管理**: 在"信笺管理"中查看和管理所有信笺
+3. **告别**: 当准备好时，选择合适的告别仪式来结束信笺的使命
+
+## 设计理念
+
+> "迟来的阳光救不了枯萎的花，和我告别吧..."
+
+这个应用旨在为那些需要情感出口的人提供一个安全的空间。有些话只能对自己说，有些情感需要时间来消化。白鸽与乌鸦，代表着希望与忧郁，光明与黑暗，它们都是人生的一部分。
+
+## 许可证
+
+MIT License
