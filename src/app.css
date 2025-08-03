@@ -25,8 +25,16 @@
     @apply bg-dove-500 hover:bg-dove-600 text-white font-medium py-2 px-4 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95;
   }
 
+  .dove-button-outline {
+    @apply bg-transparent hover:bg-dove-50 text-dove-600 border border-dove-300 hover:border-dove-400 font-medium py-2 px-4 rounded-lg transition-all duration-200;
+  }
+
   .crow-button {
     @apply bg-crow-700 hover:bg-crow-800 text-white font-medium py-2 px-4 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95;
+  }
+
+  .crow-button-outline {
+    @apply bg-transparent hover:bg-crow-50 text-crow-600 border border-crow-300 hover:border-crow-400 font-medium py-2 px-4 rounded-lg transition-all duration-200;
   }
 
   .letter-content {
